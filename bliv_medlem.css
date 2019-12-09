@@ -1,3 +1,70 @@
 body{
     background-color: #E3000F;
+margin: 0%;
+}
+
+.logo_bliv_medlem{
+    float: right;
+}
+
+h1{
+    margin: 0%;
+}
+
+p{
+    margin: 0%;}
+
+.tekst-felt{
+    padding: 20px 30px 20px 30px;
+    margin: 10px;
+    border-radius: 10px;
+    margin-top: 0%;
+    border: 2px solid #006AB8;
+}
+
+
+.butik_vælger{
+    padding: 20px 30px 20px 30px;
+    margin: 10px;
+    border-radius: 10px;
+    justify-self: center;
+    text-align: center;
+    width: 220px;
+    margin-top: 0%;
+    border: 2px solid #006AB8;
+}
+
+.næste{
+    padding: 20px 30px 20px 30px;
+    margin: 10px;
+    border-radius: 10px;
+    justify-self: center;
+    text-align: center;
+    width: 220px;
+    color: white;
+    background-color: #006AB8;
+    margin-top: 31px;
+    border: none;
+}
+
+.fødselsdag_vælger{
+    padding: 20px 30px 20px 30px;
+    margin: 0px 0px 10px 0px;
+    border-radius: 10px;
+    justify-self: center;
+    text-align: center;
+    border: 2px solid #006AB8;
+    max-width: 33%;
+}
+.tilføj{
+    padding: 20px 30px 20px 30px;
+    margin: 10px;
+    border-radius: 10px;
+    justify-self: center;
+    text-align: center;
+    
+    color: white;
+    background-color: #5FD938;
+    margin-top: 31px;
+    border: none;
 }

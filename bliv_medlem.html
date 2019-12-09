@@ -3,12 +3,38 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://use.typekit.net/iqo5bdf.css">
+        <link rel="stylesheet" href="main.css">
         <link rel="stylesheet" href="bliv_medlem.css">
     </head>
     <body>
-        <img src="Images/br_logo.png" width="100px" height="100px">
-       <h1>Bliv medlem</h1>
         
+        <img src="Images/br_logo.png" width="100px" height="100px" class="logo_bliv_medlem">
+        
+        <h1>Bliv medlem</h1>
+
+    <p>Dit navn:</p>
+        <input type="text" name="dit_navn" class="tekst-felt">
+        <br>
+
+    <p>Email:</p>
+        <input type="text" name="Email" class="tekst-felt">
+        <br>
+
+    <p>TLF:</p>
+        <input type="text" name="telefon_nummer" class="tekst-felt">
+        <br>
+        
+        <p>vælg butik</p>
+        <select name="BR butik" class="butik_vælger">
+              <option value="Size">BR butik</option>
+              <option value="XS">Algade, Aalborg</option>
+              <option value="S">Esbjerg</option>
+              <option value="M">Herning</option>
+              <option value="L">Kolding</option>
+              <option value="XL">Sønderborg</option>
+        </select>
+        <br>
+            <button class="næste">Næste</button> 
        
     </body>
 </html>
