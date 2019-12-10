@@ -1,23 +1,28 @@
 body{
     background-color: #E3000F;
 margin: 0%;
+display: grid;
 }
 
 .logo_bliv_medlem{
-    float: right;
+    justify-self: end;
 }
 
 h1{
     margin: 0%;
+    justify-self: center;
 }
 
 p{
-    margin: 0%;}
+    margin: 0%;
+    justify-self: center;
+}
 
 .tekst-felt{
     padding: 20px 30px 20px 30px;
-    margin: 10px;
+    margin: 0px 0px 15px 0px;
     border-radius: 10px;
+    justify-self: center;
     margin-top: 0%;
     border: 2px solid #006AB8;
 }
@@ -25,46 +30,49 @@ p{
 
 .butik_vælger{
     padding: 20px 30px 20px 30px;
-    margin: 10px;
+    margin: 0px 0px 15px 0px;
     border-radius: 10px;
     justify-self: center;
     text-align: center;
     width: 220px;
     margin-top: 0%;
+    background-color:white;
     border: 2px solid #006AB8;
 }
 
 .næste{
     padding: 20px 30px 20px 30px;
-    margin: 10px;
+    margin: 0px;
     border-radius: 10px;
     justify-self: center;
     text-align: center;
     width: 220px;
     color: white;
     background-color: #006AB8;
-    margin-top: 31px;
     border: none;
+}
+
+.fødselsdag_vælger_ramme{
+    justify-self: center;
 }
 
 .fødselsdag_vælger{
     padding: 20px 30px 20px 30px;
-    margin: 0px 0px 10px 0px;
+    margin: 0px 0px 15px 0px;
     border-radius: 10px;
     justify-self: center;
     text-align: center;
+    background-color:white;
     border: 2px solid #006AB8;
     max-width: 33%;
 }
 .tilføj{
     padding: 20px 30px 20px 30px;
-    margin: 10px;
+    margin: 0px 20px 48px 20px;
     border-radius: 10px;
     justify-self: center;
     text-align: center;
-    
     color: white;
     background-color: #5FD938;
-    margin-top: 31px;
     border: none;
 }
