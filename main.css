@@ -1,11 +1,11 @@
 @import "login.css";
 @import "oensker_delt_med_mig.css";
 @import "frontpage.css";
+@import "oenskeliste.css";
+
 
 body{
     background-color: #E3000F;
-    font-family: liebegerda, sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    font-family: 'Kalam', cursive;
 }
 
