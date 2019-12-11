@@ -1,4 +1,6 @@
-
+@import "login.css";
+@import "oensker_delt_med_mig.css";
+@import "frontpage.css";
 
 body{
     background-color: #E3000F;
