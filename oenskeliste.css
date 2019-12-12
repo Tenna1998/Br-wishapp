@@ -1,5 +1,5 @@
-.oenskeliste_top {
-    
+
+.oenskeliste_top_bar {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -16,7 +16,7 @@ h1 {
     
 }
 
-.logo {
+.oenskeliste_logo {
     justify-self: end;
 }
 
@@ -174,7 +174,7 @@ input[type=range] {
 
 /* range slider style */
 
-.images {
+.ønskeliste {
     position: relative;
     display: flex; 
     flex-wrap: wrap;
@@ -187,6 +187,15 @@ input[type=range] {
     padding: 30px 35px 30px 35px;
     border-radius: 20px;
     text-align: center;
+}
+
+.nyt_ønske p {
+    font-size: 1em;
+    justify-content: center;
+}
+
+.oenskeliste_images {
+  border-radius: 20px;
 }
 
 .lasergun_pris {
@@ -225,12 +234,12 @@ input[type=range] {
     border-radius: 0px 0px 20px 20px;
 }
 
-p {
+.ønskeliste_images p {
     font-size: 1em;
     justify-content: center;
 }
 
-a {
+.del {
     margin-top: 20px;
     padding: 20px 40px 20px 40px;
 }
