@@ -2,10 +2,11 @@
 @import "oensker_delt_med_mig.css";
 @import "frontpage.css";
 @import "oenskeliste.css";
-@import "barnets_ønsker";
+@import "barnets_ønsker.css";
 
 
 body{
+    
     background-color: #E3000F;
     font-family: 'Kalam', cursive;
     color: white;
