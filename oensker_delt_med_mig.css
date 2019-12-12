@@ -1,27 +1,27 @@
-.oensker_delt_med_mig_body {
+.oensker_delt_med_mig_top_bar {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-
 h1 {
-    font-size: 2em;ss
+    font-size: 2em;
     text-align: center;
 }
 
 .oensker_delt_med_mig_images {
     position: relative;
-    grid-column: 1/3;
-    grid-row: 2/3;
     display: flex; 
     flex-wrap: wrap;
     justify-content: space-evenly;
+    
 }
 
 .oensker_delt_med_mig_images img {
     position: relative;
-    background-color: #0068BB;
+    background-color: white;
     border-radius: 20px;
+    margin: 10px;
 }
 
 .William {
@@ -29,9 +29,11 @@ h1 {
     font-size: 24px;
     position: absolute;
     background-color:#0068BB;
-    left: 55px;
-    top: 120px;
-    padding-right: 20px ;
+    left: 16px;
+    top: 113px;
+    padding-right: 37px ;
+    padding-left: 37px;
+    border-radius: 0px 0px 20px 20px;
 }
 
 .Mette {
@@ -39,10 +41,11 @@ h1 {
     font-size: 24px;
     position: absolute;
     background-color:#0068BB;
-    left: 205px;
-    top: 120px;
-    padding-right: 30px;
-    padding-left: 30px;
+    left: 193px;
+    top: 113px;
+    padding-right: 45px;
+    padding-left: 45px;
+    border-radius: 0px 0px 20px 20px;
 }
 
 .Anders {
@@ -50,7 +53,9 @@ h1 {
     font-size: 24px;
     position: absolute;
     background-color:#0068BB;
-    left: 140px;
-    top: 290px;
-    padding-right: 20px;
+    left: 104.5px;
+    top: 280px;
+    padding-right: 37px;
+    padding-left: 37px;
+    border-radius: 0px 0px 20px 20px;
 }
