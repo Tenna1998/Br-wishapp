@@ -7,7 +7,7 @@
 
 .top_bar{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 25% 50% 25%;
     margin: 5px;
     }
 
@@ -16,7 +16,7 @@
     justify-self: end;
 }
 
-h1{
+.overskrift_tilmelding{
     color: white;
    align-self: center;
    margin: 20px 0px;
@@ -72,9 +72,12 @@ p{
 
 /* tilføj barn siden starter her */
 .fødselsdag_vælger_ramme{
-    justify-items: center;
-    align-items: center;
-    padding-left: 12px;
+    width: 360px;
+    margin-left: 5px;
+    justify-self: center;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
 }
 
 .fødselsdag_vælger{
