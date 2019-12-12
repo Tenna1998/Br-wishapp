@@ -1,0 +1,46 @@
+.budget_body{
+margin: 0%;
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.top_bar_menu_icon{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin: 5px;
+}
+h1{
+    margin: 20px 0px;
+    color: white;
+}
+
+.icon_giftbar{
+    display: flex;
+    flex-direction: row;
+}
+
+.profile_icon{
+    height: 100px;
+    width: 100px;
+}
+
+.menu-icon{
+    height: 75px;
+    width: 75px; 
+}
+
+.gaver_reserveret{
+    width: 60%;
+   margin-bottom: 35px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #006CB5;
+    padding: 5px;
+
+}
