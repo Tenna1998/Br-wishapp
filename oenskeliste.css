@@ -191,6 +191,7 @@ input[type=range] {
 .nyt_ønske p {
     font-size: 1em;
     justify-content: center;
+    margin: 0px;
 }
 
 .oenskeliste_images {
@@ -203,7 +204,7 @@ input[type=range] {
     position: absolute;
     background-color:#0068BB;
     left: 193px;
-    top: 120px;
+    top: 90px;
     padding-right: 45px;
     padding-left: 43px;
     border-radius: 0px 0px 20px 20px;
@@ -215,7 +216,7 @@ input[type=range] {
     position: absolute;
     background-color:#0068BB;
     left: 25px;
-    top: 277px;
+    top: 252px;
     padding-right: 37px;
     padding-left: 37px;
     border-radius: 0px 0px 20px 20px;
@@ -227,7 +228,7 @@ input[type=range] {
     position: absolute;
     background-color:#0068BB;
     left: 193px;
-    top: 277px;
+    top: 252px;
     padding-right: 37px;
     padding-left: 37px;
     border-radius: 0px 0px 20px 20px;
@@ -239,6 +240,13 @@ input[type=range] {
 }
 
 .del {
-    margin-top: 20px;
-    padding: 20px 40px 20px 40px;
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  background-color: #006CB5;
+  padding: 20px 50px 20px 50px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.1), 0 3px 10px 0 rgba(0,0,0,0.19);
 }
