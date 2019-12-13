@@ -1,10 +1,10 @@
-body {
+.frontpage_body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-h1 {
+.frontpage_overskrift {
     color: white;
     font-size: 55px;
     justify-content: center;
@@ -12,16 +12,17 @@ h1 {
     padding: 0px;
 }
 
-p {
+.frontpage_skrift {
+    text-align: center;
     margin: 0;
     color: white;
     font-size: 2em;
 }
 
-.buttons {
+.frontpage_buttons_grid {
     display: grid;
 }
-a {
+.frontpage_buttons {
     text-decoration: none;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
