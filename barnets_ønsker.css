@@ -1,71 +1,69 @@
-.oensker_delt_med_mig_body {
-    margin: 0px;
+body {
+    background-color: #EE1515;
+    margin:0px;
 }
-.oensker_delt_med_mig_top_bar {
-    display: flex;
-    flex-wrap: wrap;
+header.barnets_ønsker_top_bar{
+    display: flex; 
+    flex-wrap: wrap;     
     justify-content: space-between;
 }
-
-.oensker_delt_med_mig_top_bar img {
+.barnets_ønsker_top_bar img {
     margin: 10px;
 }
-h1 {
+
+h1{
     font-size: 2em;
     text-align: center;
 }
 
-.oensker_delt_med_mig_images {
-    position: relative;
+.barnets_ønsker_body{
     display: flex; 
     flex-wrap: wrap;
     justify-content: space-evenly;
-    
+    position: relative;
 }
-
-.oensker_delt_med_mig_images img {
+.pige_ønsker, .dreng_ønsker{
     position: relative;
     background-color: white;
     border-radius: 20px;
     margin: 10px;
 }
-
-.William {
+.opret_ønske_liste{
+    background-color: #006AB8;
+    margin: 10px;
+    padding: 30px 20px 30px 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+.opret_ønske_liste p{
+    font-size: 1em;
+    justify-content: center;
+    margin:0px;
+    padding:0px;
+}
+.Ditte {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
     position: absolute;
     background-color:#0068BB;
-    left: 22px;
-    top: 113px;
-    padding-right: 37px ;
-    padding-left: 37px;
+    left: 210px;
+    top: 105px;
+    padding-right: 46px;
+    padding-left: 46px;
     border-radius: 0px 0px 20px 20px;
 }
 
-.Mette {
+.Johan {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
     position: absolute;
     background-color:#0068BB;
-    left: 203px;
-    top: 113px;
-    padding-right: 45px;
-    padding-left: 45px;
+    left: 117px;
+    top: 262px;
+    padding-right: 38px;
+    padding-left: 38px;
     border-radius: 0px 0px 20px 20px;
 }
-
-.Anders {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
-    position: absolute;
-    background-color:#0068BB;
-    left: 113px;
-    top: 280px;
-    padding-right: 37px;
-    padding-left: 37px;
-    border-radius: 0px 0px 20px 20px;
-}
-
 .footer{
     display: flex;
     flex-direction: row;
@@ -73,10 +71,10 @@ h1 {
     background-color: #006CB5;
     padding: 5px;
     position: fixed;
-    bottom: 0px;
-    width: 100%;
-}
+    bottom: 40px;
+    width:100%;
 
+}
 .menu-icon{
     height: 75px;
     width: 75px; 
