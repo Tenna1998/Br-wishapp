@@ -1,8 +1,6 @@
 .bliv_medlem_body{
     background-color: #E3000F;
     margin: 0%;
-    display: flex;
-    flex-direction: column;
 }
 
 .top_bar{
@@ -47,7 +45,7 @@ p{
 
 .butik_vælger{
     padding: 20px 30px 20px 30px;
-    margin: 0px 0px 15px 0px;
+    margin: 0px 0px 31px 0px;
     border-radius: 10px;
     align-self: center;
     text-align: center;
@@ -72,12 +70,11 @@ p{
 
 /* tilføj barn siden starter her */
 .fødselsdag_vælger_ramme{
-    width: 360px;
-    margin-left: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
     justify-self: center;
     align-self: center;
-    align-content: center;
-    justify-content: center;
 }
 
 .fødselsdag_vælger{
@@ -87,11 +84,13 @@ p{
     text-align: center;
     background-color:white;
     border: 2px solid #006AB8;
-    max-width: 33%;
+    max-width: 98%;
+    grid-row: 2;
+    justify-self: center;
 }
 .tilføj_barn{
     padding: 20px 30px 20px 30px;
-    margin: 0px 20px 48px 20px;
+    margin: 0px 20px 17px 20px;
     border-radius: 10px;
     align-self: center;
     text-align: center;
