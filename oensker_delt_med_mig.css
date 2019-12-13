@@ -1,0 +1,83 @@
+.oensker_delt_med_mig_body {
+    margin: 0px;
+}
+.oensker_delt_med_mig_top_bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.oensker_delt_med_mig_top_bar img {
+    margin: 10px;
+}
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.oensker_delt_med_mig_images {
+    position: relative;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.oensker_delt_med_mig_images img {
+    position: relative;
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.William {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    position: absolute;
+    background-color:#0068BB;
+    left: 22px;
+    top: 113px;
+    padding-right: 37px ;
+    padding-left: 37px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.Mette {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    position: absolute;
+    background-color:#0068BB;
+    left: 203px;
+    top: 113px;
+    padding-right: 45px;
+    padding-left: 45px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.Anders {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    position: absolute;
+    background-color:#0068BB;
+    left: 113px;
+    top: 280px;
+    padding-right: 37px;
+    padding-left: 37px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #006CB5;
+    padding: 5px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.menu-icon{
+    height: 75px;
+    width: 75px; 
+}
