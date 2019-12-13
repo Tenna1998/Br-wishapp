@@ -1,0 +1,67 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color:  #E3000F;
+    font-family: liebegerda, sans-serif;
+    font-style: normal; color: white;
+    } 
+
+
+    
+h1 {
+    justify-content: center;
+}
+
+.confetti{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.textbox{
+background-color: #006cb5;
+
+width: 60%;
+height: 400px;
+justify-content: center;
+align-self: center;
+
+
+}
+
+.text {
+    display: grid;
+    background-color: #006cb5;
+    grid-column: 2/3;
+    grid-row: 2/6;
+    text-align: center;
+    
+}
+
+
+.left {
+    height: 75px;
+    width: auto;
+    
+}
+.right {
+    height: 75px;
+    width: auto;
+}
+button {
+    padding: 20px 30px 20px 30px;
+    margin: 0px;
+    border-radius: 10px;
+    align-self: center;
+    text-align: center;
+    width: 220px;
+    color: white;
+    background-color: #006AB8;
+    border: none;
+    font-size: 20px;
+    
+}
+ 
+  
