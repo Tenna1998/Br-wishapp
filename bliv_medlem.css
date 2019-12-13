@@ -1,6 +1,10 @@
 .bliv_medlem_body{
     background-color: #E3000F;
     margin: 0%;
+
+    display: flex;
+    flex-direction: column;
+
 }
 
 .top_bar{
@@ -70,11 +74,19 @@ p{
 
 /* tilføj barn siden starter her */
 .fødselsdag_vælger_ramme{
+
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     
     justify-self: center;
     align-self: center;
+
+    width: 360px;
+    margin-left: 5px;
+    justify-self: center;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
 }
 
 .fødselsdag_vælger{
