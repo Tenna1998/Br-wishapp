@@ -1,0 +1,100 @@
+body.Tilføj_ønske{
+    background-color: #E3000F;
+    font-family: 'Kalam', cursive;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+.Tilføj_ønske_top_bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.arrow_top_left {
+    padding-top: 15px;
+    justify-self: start;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 2em;
+    text-align: center;    
+}
+
+.Tilføj_ønske_logo {
+    justify-self: end;
+}
+
+.billede_info{
+    background-color: white;
+    border-radius: 20px;
+    width:80%;
+    align-self: center; 
+    margin-bottom: 50px;  
+}
+.ternet_ninja {
+    justify-self: center;
+    align-self: center;
+    padding-left: 30px;
+
+}
+p{
+    margin: 0%;
+    align-self: left;
+    color: white;
+    padding-left: 70px
+    
+}
+
+.vare_beskrivelse{
+    display: flex;
+    flex-direction: column;
+    
+}
+.Produkt{
+    padding: 10px 15px 10px 15px;
+    margin: 0px 0px 15px 0px;
+    border-radius: 10px;
+    align-self: center;
+    width: 220px;
+    margin-top: 0%;
+    border: 2px solid #006AB8;
+}
+.Pris{
+    padding:10px 15px 10px 15px;
+    margin: 0px 0px 15px 0px;
+    border-radius: 10px;
+    align-self: center;
+    width: 220px;
+    margin-top: 0%;
+    border: 2px solid #006AB8;
+    text-justify: center;
+}
+
+.produkt_beskrivelse{
+    padding: 20px 30px 20px 30px;
+    margin: 0px 0px 15px 0px;
+    border-radius: 10px;
+    align-self: center;
+    text-align: center;
+    width: 220px;
+    margin-top: 0%;
+    background-color:white;
+    border: 2px solid #006AB8;
+}
+
+ a{
+    text-decoration: none;
+    color: white;
+    padding: 20px 30px 20px 30px;
+    margin: 0px;
+    border-radius: 10px;
+    align-self: center;
+    text-align: center;
+    width: 220px;
+    background-color: #006AB8;
+    border: none;
+    font-size: 20px; 
+    margin-bottom: 40px;
+ }  
