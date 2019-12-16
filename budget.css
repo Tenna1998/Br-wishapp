@@ -1,0 +1,63 @@
+.budget_body{
+margin: 0%;
+height: 100vh;
+display: flex;
+flex-direction: column;
+}
+
+.top_bar_menu_icon{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin: 5px;
+}
+.overskrift_budget{
+    margin: 20px 0px;
+    color: white;
+    padding: 0%;
+}
+
+.gifts_bought{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.profile_icon{
+    height: 125px;
+    width: 125px;
+    position: relative;
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px;
+    grid-column: 1;
+    grid-row: 1/3;
+}
+
+p{
+    justify-self: center;
+    align-self: end;
+    margin: 1px;
+}
+
+.gaver_reserveret{
+   width: 95%;
+   grid-column: 2/4;
+   justify-self: center;
+   align-self: start;
+   margin: 1px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #006CB5;
+    padding: 5px;
+    position: fixed;
+    bottom: 0px;
+}
+
+.menu-icon{
+    height: 75px;
+    width: 75px; 
+}

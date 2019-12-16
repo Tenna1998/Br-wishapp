@@ -23,6 +23,8 @@ h1 {
 .oenskeliste_logo_to {
     justify-self: end;
 }
+
+
 /* Range slider placering */
 
 section.range-slider {
@@ -175,7 +177,6 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 /* range slider style */
-
 
 .ønskeliste_to {
     position: relative;

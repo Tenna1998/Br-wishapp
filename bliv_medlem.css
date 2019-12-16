@@ -1,29 +1,47 @@
-body{
+.bliv_medlem_body{
     background-color: #E3000F;
-margin: 0%;
-display: grid;
-
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
 }
 
+.top_bar{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    margin: 5px;
+    }
+
 .logo_bliv_medlem{
+    grid-column: 3;
     justify-self: end;
 }
 
-h1{
-    margin: 0%;
-    justify-self: center;
+.overskrift_tilmelding{
+    color: white;
+   align-self: center;
+   margin: 20px 0px;
+   grid-column: 2;
+   padding: 0%
 }
 
 p{
     margin: 0%;
-    justify-self: center;
+    align-self: center;
+    color: white;
+}
+
+.indput_felter{
+    display: flex;
+    flex-direction: column;
 }
 
 .tekst-felt{
     padding: 20px 30px 20px 30px;
     margin: 0px 0px 15px 0px;
     border-radius: 10px;
-    justify-self: center;
+    align-self: center;
+    width: 220px;
     margin-top: 0%;
     border: 2px solid #006AB8;
 }
@@ -31,9 +49,9 @@ p{
 
 .butik_vælger{
     padding: 20px 30px 20px 30px;
-    margin: 0px 0px 15px 0px;
+    margin: 0px 0px 31px 0px;
     border-radius: 10px;
-    justify-self: center;
+    align-self: center;
     text-align: center;
     width: 220px;
     margin-top: 0%;
@@ -41,42 +59,31 @@ p{
     border: 2px solid #006AB8;
 }
 
-.næste{
-    padding: 20px 30px 20px 30px;
-    margin: 0px;
-    border-radius: 10px;
-    justify-self: center;
-    text-align: center;
-    width: 220px;
-    color: white;
-    background-color: #006AB8;
-    border: none;
-    font-size: 20px;  
-}
-
 /* tilføj barn siden starter her */
 .fødselsdag_vælger_ramme{
+    width: 360px;
     justify-self: center;
-    justify-items: center;
-    padding: 5px;
+    align-self: center;
+    margin-left: 5px;
 }
 
 .fødselsdag_vælger{
     padding: 20px 30px 20px 30px;
     margin: 0px 0px 15px 0px;
     border-radius: 10px;
-    justify-self: center;
     text-align: center;
     background-color:white;
     border: 2px solid #006AB8;
     max-width: 33%;
 }
-.tilføj{
+
+.tilføj_barn{
     padding: 20px 30px 20px 30px;
-    margin: 0px 20px 48px 20px;
+    margin: 0px 20px 40px 20px;
     border-radius: 10px;
-    justify-self: center;
+    align-self: center;
     text-align: center;
+    width: 220px;
     color: white;
     background-color: #5FD938;
     border: none;
@@ -85,19 +92,18 @@ p{
 
 a{
     text-decoration: none;
-    color: white;
-    font-size: 20px;
+    color: white; 
+    padding: 20px 30px 20px 30px;
+    margin: 0px;
+    border-radius: 10px;
+    align-self: center;
+    text-align: center;
+    width: 160px;
+    background-color: #006AB8;
+    border: none;
+    font-size: 20px; 
 }
 
-/* breakpoint der får logoet til at gå ind i midten */
-@media only screen and (min-width: 600px) {
-    .logo_bliv_medlem {width: 100px;}
-    .logo_bliv_medlem {height: 100px;}
-    .logo_bliv_medlem {justify-self: center;}
-  }
-
-/* breakpoint der får snefnug til at dale ned over skærmen */
-  @media only screen and (min-width: 600px) {
   .snowflake {
     color: #fff;
     font-size: 20px;

@@ -1,0 +1,35 @@
+.tutorial_body{
+    background-color: #E3000F;
+    margin: 0%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.overskrift_tutorial{
+    margin: 20px;
+    align-self: center;
+    color: white;
+   padding: 0%;
+}
+
+.opret_ønskeliste{
+    align-self: center;
+}
+
+a{
+    text-decoration: none;
+    color: white; 
+    padding: 20px 30px 20px 30px;
+    margin: 0px;
+    border-radius: 10px;
+    align-self: center;
+    text-align: center;
+    width: 160px;
+    color: white;
+    background-color: #006AB8;
+    border: none;
+    font-size: 20px; 
+}
+
