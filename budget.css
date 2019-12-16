@@ -28,7 +28,7 @@ margin: 5px;
     position: relative;
     background-color: white;
     border-radius: 20px;
-    margin: 10px;
+    margin: 0px 10px 0px 10px;
     grid-column: 1;
     grid-row: 1/3;
 }
