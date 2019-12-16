@@ -11,6 +11,9 @@ body{
 .arrow_to {
     padding-top: 15px;
     justify-self: start;
+    background-color: #0068BB;
+    border-radius: 20px;
+    padding: 5px;
 }
 
 h1 {

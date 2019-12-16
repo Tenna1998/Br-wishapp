@@ -3,7 +3,7 @@ body {
     flex-direction: column;
 }
 
-h1 {
+.login_overskrift {
     color: white;
     font-size: 55px;
     justify-content: center;
@@ -28,7 +28,7 @@ h1 {
     padding: 50px;
 }
 
-a {
+.login_knap {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     text-align: center;
