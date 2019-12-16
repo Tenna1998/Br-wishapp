@@ -9,40 +9,13 @@ html{
     background-position: center center;
 }
 
-
-
-h1 {
-    text-align;
-    color: #006CB5;
-    }
-
-
-
-
-
-a {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    text-align: center;
-    text-decoration: none;
-    color: #006CB5;
-    background-color:white;
-    padding: 20px 30px 20px 30px;
-    margin: 10px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.1), 0 3px 10px 0 rgba(0,0,0,0.19);
-}
-
-
-
-
 .button {
-    
-    padding: 15px 20px 15px 20px;
+    padding: 20px 30px 20px 30px;
     margin: 10px;
     border-radius: 10px;
     align-self: center;
     text-align: center;
+    text-decoration: none;
     width: 200px;
     color: white;
     background-color: #006AB8;
@@ -51,4 +24,5 @@ a {
     position: fixed;
     justify-content: center;
     top: 550px;
+    font-family: Arial, Helvetica, sans-serif;
 }
