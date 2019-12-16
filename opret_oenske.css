@@ -1,0 +1,98 @@
+.opret_ønske_body{
+    margin: 0%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .top_bar_menu_icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+    }
+
+    .menu-icon{
+        height: 75px;
+        width: 75px; 
+    }
+
+    .overskrift_opret_ønske{
+        margin: 20px 0px;
+        color: white;
+        padding: 0%;
+    }
+    
+    .all_content{
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+    }
+
+    .indput_felter{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tekst-felt{
+        padding: 20px 30px 20px 30px;
+        margin: 0px 0px 15px 0px;
+        border-radius: 10px;
+        align-self: center;
+        width: 220px;
+        margin-top: 0%;
+        border: 2px solid #006AB8;
+    }
+    
+    .profile_icon{
+        height: 220px;
+        width: 220px;
+        justify-self: center;
+        align-self: center;
+        background-color: white;
+        border-radius: 20px;
+        margin: 15px;
+        grid-column: 1;
+        grid-row: 1/3;
+    }
+    
+    p{
+        margin: 0%;
+        align-self: center;
+        color: white;
+    }
+
+    a{
+        text-decoration: none;
+        color: white; 
+        padding: 20px 30px 20px 30px;
+        margin: 5px;
+        border-radius: 10px;
+        align-self: center;
+        text-align: center;
+        width: 160px;
+        background-color: #006AB8;
+        border: none;
+        font-size: 20px; 
+    }
+    
+    .skift{
+        text-decoration: none;
+        color: white; 
+        padding: 20px 30px 20px 30px;
+        margin-bottom: 15px;
+        border-radius: 10px;
+        align-self: center;
+        text-align: center;
+        width: 100px;
+        background-color: #006AB8;
+        border: none;
+        font-size: 15px; 
+    }
+
+    .buttom_buttons{
+        display: flex;
+        justify-content: space-evenly;
+        align-content: space-around;
+    }
+    
