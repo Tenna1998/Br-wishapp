@@ -33,14 +33,25 @@ body {
     font-size: 20px;
     text-align: center;
     text-decoration: none;
-    color: #006CB5;
-    background-color:white;
+    color: white;
+    width: 220px;
+    align-self: center;
+    background-color:#006CB5;
     padding: 20px 30px 20px 30px;
     margin: 10px;
     border-radius: 10px;
     box-shadow: 0 4px 10px 0 rgba(0,0,0,0.1), 0 3px 10px 0 rgba(0,0,0,0.19);
 }
 
+.tekst-felt{
+    padding: 20px 30px 20px 30px;
+    margin: 0px 0px 15px 0px;
+    border-radius: 10px;
+    align-self: center;
+    width: 220px;
+    margin-top: 0%;
+    border: 2px solid #006AB8;
+}
 
 .buttons p  {
     color:white;
@@ -48,15 +59,3 @@ body {
     margin-top: 0%;
 }
 
-.button {
-    padding: 20px 30px 20px 30px;
-    margin: 0px;
-    border-radius: 10px;
-    align-self: center;
-    text-align: center;
-    width: 220px;
-    color: white;
-    background-color: #006AB8;
-    border: none;
-    font-size: 20px;  
-}
