@@ -1,0 +1,281 @@
+body{
+    background-color: #E3000F;
+    font-family: 'Kalam', cursive;
+    color: white;
+}
+.oenskeliste_top_bar_to {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.arrow_to {
+    padding-top: 15px;
+    justify-self: start;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 2em;
+    text-align: center;
+    
+}
+
+.oenskeliste_logo_to {
+    justify-self: end;
+}
+/* Range slider placering */
+
+section.range-slider {
+  grid-column: 1/4;
+  position: relative;
+  width: 100%;
+  height: 35px;
+  text-align: center;
+  color: white;
+  font-family:'Kalam', cursive;
+  font-size: 20px;
+  justify-items: flex-start;
+  margin-bottom: 80px;
+}
+
+section.range-slider input {
+  background-color: #E3000F;
+  pointer-events: none;
+  position: absolute;
+  overflow: hidden;
+  left: 50%;
+  right: 100px;
+  top: 30px;
+  width: 300px;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  margin-left: -150px;
+}
+
+section.range-slider input::-webkit-slider-thumb {
+  pointer-events: all;
+  position: relative;
+  z-index: 1;
+  outline: 0;
+}
+
+section.range-slider input::-moz-range-thumb {
+  pointer-events: all;
+  position: relative;
+  z-index: 10;
+  -moz-appearance: none;
+  width: 20px;
+}
+
+section.range-slider input::-moz-range-track {
+  position: relative;
+  z-index: -1;
+  background-color: rgba(0, 0, 0, 1);
+  border: 0;
+}
+section.range-slider input:last-of-type::-moz-range-track {
+  -moz-appearance: none;
+  background: none transparent;
+  border: 0;
+}
+section.range-slider input[type=range]::-moz-focus-outer {
+  border: 0;
+}
+/* range slider placering */
+
+
+
+/* range slider style */
+
+input[type=range] {
+  -webkit-appearance: none;
+  width: 100%;
+  margin: 7.85px 0;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 11.3px;
+  cursor: pointer;
+  box-shadow: 0.7px 0.7px 1.7px #002200, 0px 0px 0.7px #003c00;
+  background: #0066be;
+  border-radius: 5.4px;
+  border: 5.9px solid #0066be;
+}
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 0.7px 0.7px 1.7px #030300, 0px 0px 0.7px #1c1d00;
+  border: 4px solid #00488b;
+  height: 27px;
+  width: 27px;
+  border-radius: 16px;
+  background: #00488b;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -13.75px;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #0074d8;
+}
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 11.3px;
+  cursor: pointer;
+  box-shadow: 0.7px 0.7px 1.7px #002200, 0px 0px 0.7px #003c00;
+  background: #0066be;
+  border-radius: 5.4px;
+  border: 5.9px solid #0066be;
+}
+input[type=range]::-moz-range-thumb {
+  box-shadow: 0.7px 0.7px 1.7px #030300, 0px 0px 0.7px #1c1d00;
+  border: 4px solid #00488b;
+  height: 27px;
+  width: 27px;
+  border-radius: 16px;
+  background: #00488b;
+  cursor: pointer;
+}
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 11.3px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+  background: #0058a5;
+  border: 5.9px solid #0066be;
+  border-radius: 10.8px;
+  box-shadow: 0.7px 0.7px 1.7px #002200, 0px 0px 0.7px #003c00;
+}
+input[type=range]::-ms-fill-upper {
+  background: #0066be;
+  border: 5.9px solid #0066be;
+  border-radius: 10.8px;
+  box-shadow: 0.7px 0.7px 1.7px #002200, 0px 0px 0.7px #003c00;
+}
+input[type=range]::-ms-thumb {
+  box-shadow: 0.7px 0.7px 1.7px #030300, 0px 0px 0.7px #1c1d00;
+  border: 4px solid #00488b;
+  height: 27px;
+  width: 27px;
+  border-radius: 16px;
+  background: #00488b;
+  cursor: pointer;
+  height: 11.3px;
+}
+input[type=range]:focus::-ms-fill-lower {
+  background: #0066be;
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: #0074d8;
+}
+
+/* range slider style */
+
+
+.ønskeliste_to {
+    position: relative;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.nyt_ønske_to {
+    background-color: #006AB8;
+    margin-bottom: 20px;
+    padding: 25px 30px 25px 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.nyt_ønske_to p {
+    font-size: 1em;
+    justify-content: center;
+    margin: 0px;
+}
+
+.oenskeliste_images_to {
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.reserveret {
+  background-color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  position: absolute;
+  border-radius: 0px 0px 20px 20px;
+  left: 190px;
+  top: 90px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.lasergun_pris_to {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    position: absolute;
+    background-color:#0068BB;
+    left: 30px;
+    top: 240px;
+    padding-right: 41px;
+    padding-left: 41px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.lego_pris_to {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    position: absolute;
+    background-color:#0068BB;
+    left: 194px;
+    top: 240px;
+    padding-right: 34px;
+    padding-left: 34px;
+    border-radius: 0px 0px 20px 20px;
+    
+}
+
+.sneløbehjul_pris_to {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    position: absolute;
+    background-color:#0068BB;
+    left: 30px;
+    top: 401px;
+    padding-right: 34px;
+    padding-left: 34px;
+    border-radius: 0px 0px 20px 20px;
+}
+.Ternet_Ninja_pris{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    position: absolute;
+    background-color:#0068BB;
+    border-radius: 0px 0px 20px 20px;
+    padding-right: 34px;
+    padding-left: 34px;
+    left:194px;
+    top: 401px;
+}
+
+.ønskeliste_images_to p {
+    font-size: 1em;
+    justify-content: center;
+}
+
+.del_to {
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  background-color: #006CB5;
+  padding: 20px 50px 20px 50px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.1), 0 3px 10px 0 rgba(0,0,0,0.19);
+}
