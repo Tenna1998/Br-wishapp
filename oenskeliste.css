@@ -1,12 +1,16 @@
 .oenskeliste_top_bar {
+    box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-content: space-between;
+    justify-content: space-between;
 }
 .arrow {
     padding-top: 15px;
     justify-self: start;
+    background-color: #0068BB;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 10px;
 }
 
 .oenskeliste_overskrift {
@@ -17,8 +21,9 @@
     
 }
 
-.oenskeliste_logo {
+.oenskelisten_logo {
     justify-self: end;
+    margin: 10px;
 }
 
 
@@ -218,7 +223,7 @@ input[type=range] {
     font-size: 24px;
     position: absolute;
     background-color:#0068BB;
-    left: 32px;
+    left: 35px;
     top: 240px;
     padding-right: 42px;
     padding-left: 42px;
@@ -230,7 +235,7 @@ input[type=range] {
     font-size: 24px;
     position: absolute;
     background-color:#0068BB;
-    left: 203px;
+    left: 204px;
     top: 240px;
     padding-right: 35px;
     padding-left: 35px;
