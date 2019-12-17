@@ -2,6 +2,13 @@ html{
     width: 100%;
     height: 100%;
 }
+
+.arrow_scan{
+    display: flex;
+    flex-direction: row;
+    justify-content:start ;
+}
+
 .scan_body {
     background-image: url(images/Skærmbilledet.png);
     background-repeat: no-repeat;
