@@ -23,12 +23,15 @@ h1 {
     
 }
 
-
-
 .oenskeliste_logo_to {
     justify-self: end;
 }
 
+a{
+  margin: 0%;
+  align-self: center;
+  color: white;
+}
 
 /* Range slider placering */
 

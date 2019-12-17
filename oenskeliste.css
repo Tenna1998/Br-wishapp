@@ -26,6 +26,11 @@
     margin: 10px;
 }
 
+a{
+  margin: 0%;
+  align-self: center;
+  color: white;
+}
 
 /* Range slider placering */
 
