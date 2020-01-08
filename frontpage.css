@@ -12,6 +12,11 @@
     padding: 0px;
 }
 
+.frontpage_logo {
+    width: 250px;
+    height: 250px;
+}
+
 .frontpage_skrift {
     text-align: center;
     margin: 0;

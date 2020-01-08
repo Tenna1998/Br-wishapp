@@ -19,6 +19,11 @@ body {
     justify-content: flex-end;
 }
 
+.Login_logo{
+    height: 75px;
+    width: 75px;
+}
+
 .buttons {
     display: flex;
     flex-direction: column;
