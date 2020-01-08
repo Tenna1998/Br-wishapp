@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.login_overskrift {
+    color: white;
+    font-size: 55px;
+    justify-content: center;
+    margin: 0;
+    padding: 50px;
+}
+
+.top_bar{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    align-content: flex-end;
+    justify-content: flex-end;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color:#e3000f;
+    padding: 50px;
+}
+
+.login_knap {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    width: 220px;
+    align-self: center;
+    background-color:#006CB5;
+    padding: 20px 30px 20px 30px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.1), 0 3px 10px 0 rgba(0,0,0,0.19);
+}
+
+.tekst-felt{
+    padding: 20px 30px 20px 30px;
+    margin: 0px 0px 15px 0px;
+    border-radius: 10px;
+    align-self: center;
+    width: 220px;
+    margin-top: 0%;
+    border: 2px solid #006AB8;
+}
+
+.buttons p  {
+    color:white;
+    align-self: center;
+    margin-top: 0%;
+}
+

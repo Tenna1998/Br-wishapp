@@ -3,10 +3,10 @@
 @import "frontpage.css";
 @import "oenskeliste.css";
 @import "barnets_ønsker.css";
+@import "budget_oversigt.css";
 
 
 body{
-    
     background-color: #E3000F;
     font-family: 'Kalam', cursive;
     color: white;

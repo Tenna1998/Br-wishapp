@@ -1,0 +1,40 @@
+.opret_ønske_body{
+    margin: 0%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .top_bar_menu_icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+    }
+
+    .overskrift_ikoner{
+        margin: 20px 0px;
+        color: white;
+        padding: 0%;
+    }
+    
+    .all_icons{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: space-between;
+    }
+
+    .profile_icon{
+        height: 150px;
+        width: 150px;
+        justify-self: center;
+        align-self: center;
+        background-color: white;
+        border-radius: 20px;
+        margin: 15px;
+        grid-column: 1;
+        grid-row: 1/3;
+    }
+    
