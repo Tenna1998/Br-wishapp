@@ -19,10 +19,23 @@ margin: 5px;
 .top_bar_menu_icon img {
     margin: 10px;
 }
+
+.budget_menu{
+    width: 50px;
+    height: 50px;
+}
+
 .overskrift_budget{
     margin: 20px 0px;
     color: white;
     padding: 0%;
+}
+
+.budget_logo {
+    grid-column: 3;
+    justify-self: end;
+    width: 75px;
+    height: 75px;
 }
 
 .gifts_bought{
