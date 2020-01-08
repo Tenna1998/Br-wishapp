@@ -31,6 +31,8 @@
 .budget_oversigt_billeder {
     border-radius: 20px;
     margin: 10px;
+    width: 140px;
+    height: 140px;
 }
 
 .budget_oversigt_pris{
@@ -51,12 +53,16 @@
     position: absolute;
     margin-top: 110px;
     margin-left: 50px;
+    height: 20px;
+    width: 20px;
 }
 
 .gave_flueben {
     position: absolute;
     margin-top: 110px;
     margin-left: 145px;
+    height: 20px;
+    width: 20px;
 }
 
 .købt {
@@ -66,6 +72,8 @@
     margin: 0px;
     text-align: center;
     align-self: flex-end;
+    width: 50px;
+    height: 50px;
 }
 
 .pakket_ind {
@@ -76,6 +84,8 @@
     text-align: center;
     align-self: flex-end;
     margin-left: 10px;
+    width: 50px;
+    height: 50px;
 }
 
 .sort_gave {
@@ -86,6 +96,8 @@
     border-radius: 40px;
     padding: 10px;
     margin-left: 10px;
+    width: 50px;
+    height: 50px;
 }
 
 .sort_indkøbsvogn {
@@ -94,6 +106,8 @@
     background-color: white;
     border-radius: 40px;
     padding: 10px;
+    width: 50px;
+    height: 50px;
 }
 
 .hvid_gave {
@@ -105,6 +119,8 @@
     border-radius: 40px;
     padding: 10px;
     margin-left: 10px;
+    width: 50px;
+    height: 50px;
 }
 
 .hvid_indkøbsvogn {
@@ -114,4 +130,6 @@
     background-color: #0066be;
     border-radius: 40px;
     padding: 10px;
+    width: 50px;
+    height: 50px;
 }
