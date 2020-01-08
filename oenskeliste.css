@@ -6,17 +6,22 @@
 .arrow {
     padding-top: 15px;
     justify-self: start;
+    width: 50px;
+    height: 50px;
 }
 
-h1 {
+.ønskeliste_overskrift {
     margin-top: 20px;
+    padding: 0px;
     font-size: 2em;
-    text-align: center;
-    
+    text-align: center;   
 }
 
-.oenskeliste_logo {
+.oenskelisten_logo {
     justify-self: end;
+    width: 75px;
+    height: 75px;
+    margin: 5px;
 }
 
 
@@ -193,9 +198,15 @@ input[type=range] {
     justify-content: center;
     margin: 0px;
 }
+.oenskeliste_plus {
+  width: 50px;
+  height: 50px;
+}
 
 .oenskeliste_images {
   border-radius: 20px;
+  width: 140px;
+  height: 140px;
 }
 
 .lasergun_pris {
@@ -203,7 +214,7 @@ input[type=range] {
     font-size: 24px;
     position: absolute;
     background-color:#0068BB;
-    left: 193px;
+    left: 203px;
     top: 90px;
     padding-right: 45px;
     padding-left: 43px;
@@ -215,7 +226,7 @@ input[type=range] {
     font-size: 24px;
     position: absolute;
     background-color:#0068BB;
-    left: 25px;
+    left: 32px;
     top: 252px;
     padding-right: 37px;
     padding-left: 37px;
@@ -227,7 +238,7 @@ input[type=range] {
     font-size: 24px;
     position: absolute;
     background-color:#0068BB;
-    left: 193px;
+    left: 202px;
     top: 252px;
     padding-right: 37px;
     padding-left: 37px;
