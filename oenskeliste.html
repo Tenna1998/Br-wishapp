@@ -6,12 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
-    <title>Document</title>
+    <!--kilder: 
+    https://stackoverflow.com/questions/4753946/html5-slider-with-two-inputs-possible
+    http://danielstern.ca/range.css/#/
+    <title>Ønskeappen</title>-->
 </head>
 <body>
     <header class="oenskeliste_top_bar">
-        <img class="arrow" src="Images/arrow.png" alt="Arrow left">
-        <h1 class="ønskeliste_overskrift">Johans Ønsker</h1>
+        <a href="barnets_ønsker.html"><img class="arrow" src="Images/arrow.png" alt="Arrow left"></a>
+        <h1 class="oenskeliste_overskrift">Johans Ønsker</h1>
         <img class="oenskelisten_logo" src="images/br_logo.png" alt="Br Logo">
     </header>
     <main>
@@ -22,18 +25,22 @@
         </section>
     <section class="ønskeliste">
         <section class="nyt_ønske">
-            <img class="oenskeliste_plus" src="Images/plus.png" alt="Plus">
-            <p>Nyt Ønske</p>
+            <a href="http://127.0.0.1:5500/scan.html"><img class="oenskeliste_plus" src="Images/plus.png" alt="Plus" width="50px" height="50px">
+                <p>Nyt Ønske</p></a>
         </section>
-        <img class="oenskeliste_images" src="images/lasergun.jpg" alt="lasergun">
+        <img class="oenskeliste_images" src="images/ironman.jpeg" alt="ironman" width="135px" height="135px">
+        <p class="reserveret">reserveret</p>
+        <img class="oenskeliste_images" src="images/lasergun.jpg" alt="lasergun" width="135px" height="135px">
         <p class="lasergun_pris">59 kr</p>
-        <img class="oenskeliste_images" src="Images/lego.jpg" alt="Girl">
+        <img class="oenskeliste_images" src="Images/lego.jpg" alt="Girl" width="135px" height="135px">
         <p class="lego_pris" >219 kr</p>
-        <img class="oenskeliste_images" src="images/sneløbehjul.jpg" alt="Boy">
-        <p class="sneløbehjul_pris">449 kr</p>
-        <a class="del" href="">Del</a>
+        <img class="oenskeliste_images" src="images/sneløbehjul.jpg" alt="Boy" width="135px" height="135px">
+        <p class="sneløbehjul_pris">449 kr</p>    
     </section>
     </main>
+    <footer class="footer-flex">
+        <a class="del" href="">Del</a>
+    </footer>
     <script src="slider.js"></script>
 </body>
 </html>

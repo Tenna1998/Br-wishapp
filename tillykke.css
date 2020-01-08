@@ -3,7 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color:  #E3000F;
-    font-family: liebegerda, sans-serif;
+    font-family: kalam, cursive;
     font-style: normal; color: white;
     } 
 
@@ -11,6 +11,20 @@ body {
     
 h1 {
     justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: white; 
+    padding: 20px 30px 20px 30px;
+    margin: 0px;
+    border-radius: 10px;
+    align-self: center;
+    text-align: center;
+    width: 160px;
+    background-color: #006AB8;
+    border: none;
+    font-size: 20px; 
 }
 
 .confetti{
@@ -22,7 +36,8 @@ h1 {
 
 .textbox{
 background-color: #006cb5;
-
+margin-bottom: 40px;
+margin-top: 40px;
 width: 60%;
 height: 400px;
 justify-content: center;

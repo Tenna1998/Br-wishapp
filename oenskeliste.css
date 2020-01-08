@@ -1,4 +1,5 @@
 .oenskeliste_top_bar {
+    box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -6,11 +7,16 @@
 .arrow {
     padding-top: 15px;
     justify-self: start;
+    background-color: #0068BB;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 10px;
     width: 50px;
     height: 50px;
 }
 
-.ønskeliste_overskrift {
+.oenskeliste_overskrift {
+    padding: 0px;
     margin-top: 20px;
     padding: 0px;
     font-size: 2em;
@@ -19,11 +25,16 @@
 
 .oenskelisten_logo {
     justify-self: end;
+    margin: 5px;
     width: 75px;
     height: 75px;
-    margin: 5px;
 }
 
+a{
+  margin: 0%;
+  align-self: center;
+  color: white;
+}
 
 /* Range slider placering */
 
@@ -188,7 +199,7 @@ input[type=range] {
 .nyt_ønske {
     background-color: #006AB8;
     margin-bottom: 20px;
-    padding: 30px 35px 30px 35px;
+    padding: 25px 30px 25px 30px;
     border-radius: 20px;
     text-align: center;
 }
@@ -205,8 +216,21 @@ input[type=range] {
 
 .oenskeliste_images {
   border-radius: 20px;
+  margin-bottom: 20px;
   width: 140px;
   height: 140px;
+}
+
+.reserveret {
+  background-color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  position: absolute;
+  border-radius: 0px 0px 20px 20px;
+  left: 204px;
+  top: 85px;
+  padding-right: 12px;
+  padding-left: 15px;
 }
 
 .lasergun_pris {
@@ -214,10 +238,10 @@ input[type=range] {
     font-size: 24px;
     position: absolute;
     background-color:#0068BB;
-    left: 203px;
-    top: 90px;
-    padding-right: 45px;
-    padding-left: 43px;
+    left: 35px;
+    top: 240px;
+    padding-right: 42px;
+    padding-left: 42px;
     border-radius: 0px 0px 20px 20px;
 }
 
@@ -226,11 +250,12 @@ input[type=range] {
     font-size: 24px;
     position: absolute;
     background-color:#0068BB;
-    left: 32px;
-    top: 252px;
-    padding-right: 37px;
-    padding-left: 37px;
+    left: 204px;
+    top: 240px;
+    padding-right: 35px;
+    padding-left: 35px;
     border-radius: 0px 0px 20px 20px;
+    
 }
 
 .sneløbehjul_pris {
@@ -238,16 +263,21 @@ input[type=range] {
     font-size: 24px;
     position: absolute;
     background-color:#0068BB;
-    left: 202px;
-    top: 252px;
-    padding-right: 37px;
-    padding-left: 37px;
+    left: 120px;
+    top: 396px;
+    padding-right: 34px;
+    padding-left: 34px;
     border-radius: 0px 0px 20px 20px;
 }
 
 .ønskeliste_images p {
     font-size: 1em;
     justify-content: center;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: center;
 }
 
 .del {

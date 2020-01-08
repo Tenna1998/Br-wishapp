@@ -7,37 +7,91 @@ margin: 0%;
 height: 100vh;
 display: flex;
 flex-direction: column;
-justify-content: space-between;
 }
+
 .top_bar_menu_icon{
 display: flex;
 flex-direction: row;
 justify-content: space-between;
 margin: 5px;
 }
-h1{
+
+.top_bar_menu_icon img {
+    margin: 10px;
+}
+.overskrift_budget{
     margin: 20px 0px;
     color: white;
+    padding: 0%;
 }
 
-.icon_giftbar{
-    display: flex;
-    flex-direction: row;
+.gifts_bought{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .profile_icon{
-    height: 100px;
-    width: 100px;
+    height: 125px;
+    width: 125px;
+    position: relative;
+    background-color: white;
+    border-radius: 20px;
+    margin: 0px 10px 0px 10px;
+    grid-column: 1;
+    grid-row: 1/3;
 }
 
-.menu-icon{
-    height: 75px;
-    width: 75px; 
+p{
+    justify-self: center;
+    align-self: end;
+    margin: 1px;
+}
+.mette_link{
+    grid-column: 1;
+    grid-row: 1/3;
 }
 
 .gaver_reserveret{
-    width: 60%;
-   margin-bottom: 35px;
+   width: 95%;
+   grid-column: 2/4;
+   justify-self: center;
+   align-self: start;
+   margin: 1px;
+}
+.William {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    position: absolute;
+    background-color:#0068BB;
+    left: 9px;
+    top: 233px;
+    padding-right: 25px ;
+    padding-left: 25px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.Mette {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    position: absolute;
+    background-color:#0068BB;
+    left: 9px;
+    top: 383px;
+    padding-right: 33px;
+    padding-left: 33px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.Anders {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    position: absolute;
+    background-color:#0068BB;
+    left: 9px;
+    top: 535px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-radius: 0px 0px 20px 20px;
 }
 
 .footer{
@@ -46,5 +100,19 @@ h1{
     justify-content: space-evenly;
     background-color: #006CB5;
     padding: 5px;
+    position: fixed;
+    bottom: 0px;
+}
 
+.menu-icon{
+    height: 75px;
+    width: 75px; 
+}
+
+.valgt_gris{
+    height: 75px;
+    width: 75px; 
+    background-color: #014A89;
+    padding: 5px;
+    border-radius: 10px;
 }
