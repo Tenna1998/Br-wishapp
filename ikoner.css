@@ -17,6 +17,10 @@
         color: white;
         padding: 0%;
     }
+    .logo_bliv_medlem{
+        width: 75px;
+        height: 75px;
+    }
     
     .all_icons{
         display: flex;
