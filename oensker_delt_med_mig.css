@@ -10,7 +10,8 @@
 .oensker_delt_med_mig_top_bar img {
     margin: 10px;
 }
-h1 {
+.oensker_delt_med_mig_overskrift {
+    margin-top: 5px;
     font-size: 2em;
     text-align: center;
 }
